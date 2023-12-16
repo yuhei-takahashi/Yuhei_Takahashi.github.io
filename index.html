@@ -6,6 +6,15 @@
   <title>Yuhei Takahashi (高橋侑平)</title>
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
+ 
+  <style>
+    #target-section {
+      margin-top: 300px;
+      padding: 20px;
+      border: 1px solid #ccc;
+    }
+  </style>
+  
 </head>
 
 <body>
@@ -65,6 +74,24 @@
     </div>
       <div class="clear"></div>
     </div>
+
+<div id="target-section">
+    <h2>Target Section</h2>
+    <p>This is the target section where you want to scroll.</p>
+  </div>
+
+  <!-- ボタンとリンク -->
+  <button onclick="scrollToSection()">Scroll to Section</button>
+
+  <script>
+    // JavaScriptでスクロールを制御する関数
+    function scrollToSection() {
+      // アンカーリンクを使用してスクロール
+      document.getElementById('target-section').scrollIntoView({ behavior: 'smooth' });
+    }
+  </script>
+  
+  
   
 <!--   <div class="message-wrapper">
     <div class="container">
