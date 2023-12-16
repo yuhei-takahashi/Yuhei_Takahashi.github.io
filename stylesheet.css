@@ -15,6 +15,12 @@ a {
       font-weight: bold;
 }
 
+.reference {
+      border: 1px solid #ccc;
+      padding: 10px; 
+      margin-bottom: 15px; 
+ }
+
 .container {
   width: 100%;
   padding: 0 15px;
