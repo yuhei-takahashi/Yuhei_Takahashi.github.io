@@ -170,6 +170,10 @@ header {
   font-weight: normal;
 }
 
+  .left-align {
+      text-align: left;
+}
+
 .message-wrapper {
   border-bottom: 1px solid #eee;
   padding-bottom: 80px;
