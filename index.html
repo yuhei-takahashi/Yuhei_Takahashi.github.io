@@ -17,13 +17,15 @@
   
 </head>
 
+  
+
 <body>
   <header>
     <div class="container">
       <span class="fa fa-bars menu-icon"></span>
       <div class="header-right">
         <a href="#">BIO</a>
-        <a href="#">Publications</a>
+        <a href="#Publications">Publications</a>
         <a href="#">Contact</a>
       </div>
     </div>
@@ -58,7 +60,7 @@
     </div>
   </div>
 
-<div id="target-section">
+<div id="Publications">
   <div class="lesson-wrapper">
     <div class="container">
       <div class="heading">
@@ -78,14 +80,13 @@
 
 
 
-  <!-- ボタンとリンク -->
-  <button onclick="scrollToSection()">Scroll to Section</button>
+ 
 
   <script>
     // JavaScriptでスクロールを制御する関数
     function scrollToSection() {
       // アンカーリンクを使用してスクロール
-      document.getElementById('target-section').scrollIntoView({ behavior: 'smooth' });
+      document.getElementById('Publications').scrollIntoView({ behavior: 'smooth' });
     }
   </script>
   
