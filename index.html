@@ -22,7 +22,7 @@
   <header>
     <div class="container">
       <div class="header-left">
-        <img class="logo" src="logo.png">
+        <img class="logo" id="logo" src="logo.png">
       </div>
       <span class="fa fa-bars menu-icon"></span>
     </div>
@@ -130,5 +130,24 @@
       <p>最終更新: 12/2023</p>
     </div>
   </footer>
+
+
+<!--   ここからJavascript -->
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var logo = document.getElementById('logo');
+
+        // ロゴがクリックされたときの処理
+        logo.addEventListener('click', function () {
+            // ページの一番上にスクロールする
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth' // スムーズなスクロールを有効にする（オプション）
+            });
+        });
+    });
+</script>
+
+  
 </body>
 </html>
